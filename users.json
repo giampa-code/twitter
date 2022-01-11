@@ -1,0 +1,38 @@
+[
+  {
+    "nick_name": "giampa14",
+    "first_name": "Gonzalo",
+    "last_name": "Giampaolo",
+    "user_id": "04f0a9f6-7bab-4d2e-8447-660d617b06d3",
+    "email": "giampa95@hotmail.com",
+    "password": "elcacas123",
+    "birth_date": "1995-11-12"
+  },
+  {
+    "nick_name": "rochi123",
+    "first_name": "Rocio Pilar",
+    "last_name": "Rolon",
+    "user_id": "50fbde10-3823-45d7-a4e7-5b3afd08d798",
+    "email": "roci@gmail.com",
+    "password": "lamaslinda",
+    "birth_date": "None"
+  },
+  {
+    "nick_name": "El_manchis",
+    "first_name": "Sr Manchis",
+    "last_name": "Giampaolo",
+    "user_id": "8cb23e1e-c443-4b03-a068-3c83cb6a771c",
+    "email": "manchis@gmail.com",
+    "password": "gonzuqhace",
+    "birth_date": "2010-01-01"
+  },
+  {
+    "nick_name": "asdasd",
+    "first_name": "Rocio Pilar",
+    "last_name": "Rolon",
+    "user_id": "f7b26fbf-5d2d-4aad-8692-53be83b1a0a6",
+    "email": "asdasd@hotmail.com",
+    "password": "asdasdasd",
+    "birth_date": "None"
+  }
+]

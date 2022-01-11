@@ -7,6 +7,12 @@ from datetime import date, datetime
 from pydantic import BaseModel, EmailStr, Field
 
 class User(BaseModel):
+    nick_name: str = Field(
+        ...,
+        min_length=1,
+        max_length=64,
+        
+    )
     first_name: str = Field(
         ...,
         min_length=1,
@@ -17,16 +23,17 @@ class User(BaseModel):
         min_length=1,
         max_length=64
     )
-    birth_date: Optional[date] = Field(default=None)
+    user_id: UUID = Field(...)
 
 class UserPrivate(User):
-    user_id: UUID = Field(...)
+
     email: EmailStr = Field(...)
     password: str = Field(
         ...,
         min_length=8,
         max_length=64
     )
+    birth_date: Optional[date] = Field(default=None)
     
 
 class Tweet(BaseModel):
@@ -38,4 +45,4 @@ class Tweet(BaseModel):
     )
     created_at: datetime = Field(default= datetime.now())
     updated_at: Optional[datetime] = Field(default=None)
-    by: User = Field(...)
+    by_nickname: str = Field(...)
